@@ -1,0 +1,36 @@
+{
+  "name": "jukelabs/wordpress-config",
+  "type": "library",
+  "license": "MIT",
+  "description": "WordPress config plugin",
+  "authors": [
+    {
+      "name": "Ryan Powszok",
+      "email": "ryan@jukelabs.com",
+      "homepage": "https://jukelabs.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+		"oscarotero/env": "^1.1",
+    "vlucas/phpdotenv": "^2.5",
+    "symfony/http-foundation": "^4.1"
+  },
+  "autoload": {
+    "psr-0": {
+      "WPConfig": "src/"
+    }
+  },
+  "archive": {
+    "exclude": [
+      ".editorconfig",
+      ".gitattributes",
+      ".gitignore",
+      ".travis.yml",
+      "CONTRIBUTING.md",
+      "phpcs.xml",
+      "phpunit.xml",
+      "tests"
+    ]
+  }
+}
