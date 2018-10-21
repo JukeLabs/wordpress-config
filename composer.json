@@ -1,5 +1,5 @@
 {
-  "name": "jukelabs/wordpress-config",
+  "name": "jukelabs/wordpress-starter-config",
   "type": "library",
   "license": "MIT",
   "description": "WordPress config plugin",
